@@ -1,1 +1,194 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steun Onze Dieren - Jouw Donatie Maakt Het Verschil</title>
+       <link rel="stylesheet" href="style.css">
 
+</head>
+<body>
+    <header class="header">
+        <div class="nav-container">
+            <div class="logo">🐾 Dierenwelzijn</div>
+            <nav class="nav-menu">
+                <a href="#home">Home</a>
+                <a href="#doneren">Doneren</a>
+                <a href="#over-ons">Over Ons</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero-section" id="home">
+        <img src="images/test.jpg" alt="Hero Image" class="hero-image">
+        <div class="hero-content">
+            <h1 class="hero-title">Steun Onze Dieren</h1>
+            <p class="hero-subtitle">Jouw donatie maakt het verschil voor dieren in nood</p>
+        </div>
+    </section>
+
+    <section class="donation-section" id="doneren">
+        <div class="donation-container">
+            <div class="donation-content">
+                <h2 class="donation-title">Elke Dag Maken We Het Verschil</h2>
+                <p class="donation-text">
+                    Elke dag worden talloze dieren geconfronteerd met honger, verwaarlozing en gebrek aan medische zorg. 
+                    Bij ons zetten we ons met hart en ziel in om deze dieren een tweede kans te geven. 
+                    Maar dat kunnen we niet zonder jouw hulp. Waarom doneren?
+                </p>
+            </div>
+            
+            <div class="donation-grid">
+                <div class="donation-impact">
+                    <h3 class="impact-title">Met jouw bijdrage kunnen we:</h3>
+                    <ul class="impact-list">
+                        <li>Voedsel en schoon drinkwater bieden aan zwerfsdieren</li>
+                        <li>Medische zorg en sterilisatieprogramma's bekostigen</li>
+                        <li>Veilige opvang en liefdevalle adoptieplekken realiseren</li>
+                        <li>Dierenreddingsacties uitvoeren in noodsituaties</li>
+                    </ul>
+                    <p style="margin-top: 2rem; font-size: 1.1rem; font-style: italic;">
+                        Groot of klein, elke donatie telt. Of je nu eenmalig doneert of kiest voor een maandelijkse bijdrage: 
+                        je helpt direct mee aan een beter leven voor dieren in nood.
+                    </p>
+                </div>
+
+                <div class="donation-form">
+                    <h3 class="form-title">Doneer Nu</h3>
+                    <form id="donationForm">
+                        <div class="donation-amounts">
+                            <button type="button" class="amount-btn" data-amount="10">€10</button>
+                            <button type="button" class="amount-btn" data-amount="25">€25</button>
+                            <button type="button" class="amount-btn" data-amount="50">€50</button>
+                            <button type="button" class="amount-btn" data-amount="100">€100</button>
+                            <button type="button" class="amount-btn" data-amount="250">€250</button>
+                            <button type="button" class="amount-btn" data-amount="custom">Anders</button>
+                        </div>
+                        
+                        <input type="number" class="custom-amount" placeholder="Eigen bedrag (€)" id="customAmount" style="display: none;">
+                        
+                        <div class="form-group">
+                            <label for="donationType">Type donatie:</label>
+                            <select id="donationType" style="width: 100%; padding: 1rem; border: 2px solid #ddd; border-radius: 10px; font-size: 1rem;">
+                                <option value="eenmalig">Eenmalige donatie</option>
+                                <option value="maandelijks">Maandelijkse donatie</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="donorName">Naam:</label>
+                            <input type="text" id="donorName" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="donorEmail">E-mail:</label>
+                            <input type="email" id="donorEmail" required>
+                        </div>
+                        
+                        <button type="submit" class="donate-btn">💖 Doneer Nu</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats-section">
+        <div class="stats-container">
+            <div class="stat-card">
+                <div class="stat-number">2,547</div>
+                <div class="stat-label">Geredde Dieren</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">1,892</div>
+                <div class="stat-label">Succesvolle Adopties</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">3,210</div>
+                <div class="stat-label">Medische Behandelingen</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">15,643</div>
+                <div class="stat-label">Maaltijden Verstrekt</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery-section">
+        <div class="gallery-container">
+            <h2 class="gallery-title">Onze Dierenvrienden</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1552053831-71594a27632d?w=400&h=250&fit=crop&crop=faces" alt="Honden in opvang">
+                    <div class="gallery-item-content">
+                        <h3 class="gallery-item-title">Honden in Opvang</h3>
+                        <p class="gallery-item-description">Onze lieve honden wachten op een liefdevol thuis. Van speelse puppy's tot wijze senioren, elk heeft een uniek verhaal.</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=400&h=250&fit=crop&crop=faces" alt="Katten verzorging">
+                    <div class="gallery-item-content">
+                        <h3 class="gallery-item-title">Katten Verzorging</h3>
+                        <p class="gallery-item-description">Onze katten krijgen alle liefde en zorg die ze verdienen. Van speelse kittens tot knuffelige volwassen katten.</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?w=400&h=250&fit=crop&crop=faces" alt="Medische zorg">
+                    <div class="gallery-item-content">
+                        <h3 class="gallery-item-title">Medische Zorg</h3>
+                        <p class="gallery-item-description">Professionele veterinaire zorg voor alle dieren. Van routine controles tot complexe operaties.</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=400&h=250&fit=crop&crop=faces" alt="Gelukkige adopties">
+                    <div class="gallery-item-content">
+                        <h3 class="gallery-item-title">Gelukkige Adopties</h3>
+                        <p class="gallery-item-description">Het mooiste moment: wanneer onze dieren hun forever home vinden. Elke adoptie is een succesverhaal.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="contact">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>📞 1-888-915-6255</p>
+                <p>✉️ help@dierenwelzijn.com</p>
+                <p>📍 Rotterdam, Zuid-Holland, NL</p>
+            </div>
+            <div class="footer-section">
+                <h3>Over Ons</h3>
+                <a href="#">Onze Missie</a>
+                <a href="#">Transparantie</a>
+                <a href="#">Jaarverslagen</a>
+                <a href="#">Vrijwilligerswerk</a>
+            </div>
+            <div class="footer-section">
+                <h3>Ondersteuning</h3>
+                <a href="#">Veelgestelde Vragen</a>
+                <a href="#">Donatie Opties</a>
+                <a href="#">Newsletter</a>
+                <a href="#">Privacy Beleid</a>
+            </div>
+            <div class="footer-section">
+                <h3>Volg Ons</h3>
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+                <a href="#">YouTube</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Dierenwelzijn Nederland. Samen maken we de wereld een betere plek voor onze dierenvrienden. 🐾</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+
+  
+</body>
+</html>
